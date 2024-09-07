@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekza Store - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Shop at Tekza Store</h1>
+        <input type="text" id="searchBar" placeholder="Search products..." onkeyup="searchProducts()">
+    </header>
+    
+    <section class="product-list" id="productList">
+        <!-- Product 1 -->
+        <div class="product" data-category="shoes">
+            <img src="shoes.jpg" alt="Shoes">
+            <h2>Sport Shoes</h2>
+            <p>Price: $50</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product" data-category="watches">
+            <img src="watch.jpg" alt="Watch">
+            <h2>Luxury Watch</h2>
+            <p>Price: $150</p>
+            <a href="https://wa.me/wa.me/916238768108?text=I%20need%20Watchs" target="_blank" class="buy-button">Buy Now</a>
+        </div>
+        <!-- Add more products here -->
+    </section>
+</body>
+</html>
