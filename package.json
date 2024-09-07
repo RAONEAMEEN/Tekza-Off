@@ -1,0 +1,14 @@
+{
+  "name": "tekza-store",
+  "version": "1.0.0",
+  "description": "Tekza Store - Shop website",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8080 ."
+  },
+  "dependencies": {
+    "http-server": "^14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
